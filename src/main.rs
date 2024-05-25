@@ -85,7 +85,7 @@ fn main() {
 
     let mut guesses_made = 0;
 
-    println!("Hey, guess a number 1-10:");
+    println!("Hey, guess a number 1-10 :");
     while guesses_made < num_guess {
         let mut guess = String::new();
         io::stdin()
